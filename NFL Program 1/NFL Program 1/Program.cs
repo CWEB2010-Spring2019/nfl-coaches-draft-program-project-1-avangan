@@ -169,7 +169,7 @@ namespace NFL_Program_1
                     }
                 }
 
-            } //end WHILE
+            } 
 
             Console.Clear();
             Console.WriteLine("\n- Nice Choice you have got:" + playername);
