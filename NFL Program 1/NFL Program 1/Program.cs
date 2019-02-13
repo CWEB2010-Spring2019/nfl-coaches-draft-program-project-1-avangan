@@ -155,14 +155,14 @@ namespace NFL_Program_1
                     {
                         Console.Clear();
 
-                        Console.WriteLine("\n--------------------------------------------------------------------------\n Good Choice");
+                        
                         foreach (Player i in CoachChoice)
                         {
                             Console.WriteLine(i.ToString());
                         }
                         Console.WriteLine("\nThe amount of money you have spent is : $" + PlayersCost);
                         Console.WriteLine("Current budget $" + Bank);
-                        Console.WriteLine("\n--------------------------------------------------------------------------");
+                    
                         Console.WriteLine("To continue drafting players, Press 'Enter'");
                         Console.WriteLine("To  the quit the program, Please enter 'q'");
                         start = Console.ReadLine();
